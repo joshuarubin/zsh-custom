@@ -16,6 +16,7 @@ fi
 
 path[1,0]="/usr/local/google-cloud-sdk/bin"
 path[1,0]="$HOME/.cabal/bin"
+path[1,0]="$HOME/.cargo/bin"
 
 path=($^path(N))
 path[1,0]="node_modules/.bin"
