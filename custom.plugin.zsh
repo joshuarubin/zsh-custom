@@ -2,6 +2,7 @@ local fdir=$0:A:h/functions
 fpath+=$fdir
 autoload -Uz $fdir/*(:t)
 
+path[1,0]="/snap/bin"
 path[1,0]="$ZSH/bin"
 path[1,0]="$HOME/bin"
 
